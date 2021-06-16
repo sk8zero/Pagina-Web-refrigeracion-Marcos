@@ -66,11 +66,16 @@ h2 {
 
 .parallax-chico h2 {
   display: flex;
-  height: inherit;
+  height: auto;
   justify-content: center;
   align-items: center;
   color: #fff;
   font-weight: 400;
+}
+
+.refri {
+  width: 100px;
+  height: 100px;
 }
 
 .texto {
