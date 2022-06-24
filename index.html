@@ -1,191 +1,201 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <!--CSS-->
-    <link rel="stylesheet" href="css/Responsive-Top-Navigation.css" />
-    <link rel="stylesheet" href="css/footer.css" />
-    <link rel="stylesheet" href="css/parallax.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/header.css" />
-    <link rel="stylesheet" href="css/galery.css" />
 
-    <!--BOOSTRAP CSS-->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
-      crossorigin="anonymous"
-    />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
-    <!--Google Fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header class="parallax-completo">
-      <div class="textos-header">
-        <h1 class="display-5">Marcos Fraga</h1>
-        <h2 class="display-4">
-          Tecnico en <br />
-          Aire Acondicionado y Refrigeración
-        </h2>
+  <!-- Icon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-        <a href="#">Contacto</a>
+  <title>Refrigeracion MC | Landing Page</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Karla:wght@400;700&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS 👍-->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/menu.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet  -->
+</head>
+
+
+
+<body>
+  <header id="Inicio" class="hero">
+
+    <nav class="nav ">
+      <div class="nav__container container">
+        <figure class="nav__figure">
+          <img src="Sport.png" alt="" class="nav__img">
+        </figure>
+        <!--
+        <figure for="nav__hamburguer" class="nav__hamburguer">
+          <img src="./images/icon-hamburger.svg" class="nav__icon" alt="">
+        </figure>
+-->
+
+        <img src="Hamburguesa.svg" alt="" class="hamburguer nav__hamburguer">
+
+        <div class="nav__links">
+          <a href="#Inicio" class="nav__link"> Inicio</a>
+          <a href="#Servicio" class="nav__link">Servicios</a>
+          <a href="#Contact" class="nav__link">Contacto</a>
+          <a href="#" class="nav__link nav__link--cta"> View plans</a>
+
+        </div>
+
+        <!--Menu Despegable lateral-->
+        <nav class="menu-navegacion">
+          <a href="#Inicio">Inicio</a>
+          <a href="#Servicio">Servicios</a>
+          <!--<a href="#portafolio">Portafolio</a>-->
+          <!--<a href="#expertos">Expertos</a>-->
+          <a href="#Contact">Contacto</a>
+        </nav>
       </div>
-    </header>
-    <section class="center espacio">
-      <h2>Parallax Demo</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-        natus quisquam aperiam adipisci laudantium accusantium similique sint
-        earum, iusto itaque quasi ad assumenda deleniti ratione vitae aliquid
-        hic repellendus impedit obcaecati laborum quis tempore nesciunt
-        aspernatur fugit! Magnam eos debitis ab similique atque obcaecati
-        voluptas porro officiis cumque odio officia aperiam quibusdam sed, quas
-        vero earum? Esse placeat soluta explicabo consequuntur illo recusandae
-        amet voluptatibus pariatur exercitationem et velit voluptates qui,
-        maiores corporis natus ipsam porro accusantium, delectus sapiente cumque
-        aperiam nesciunt deserunt sunt! Soluta vel voluptates et reprehenderit
-        voluptate! Nihil earum placeat libero, non illo laudantium enim cum
-        amet. Itaque, est. Sequi temporibus atque odit perspiciatis numquam, a
-        distinctio architecto, consequatur neque, quae dolor rerum. Magni, quam.
-        Soluta rem ex aspernatur eveniet, voluptates possimus perferendis ad
-        inventore rerum mollitia praesentium quod nostrum similique ullam beatae
-        eos sunt nesciunt ab, accusamus a explicabo corporis iure quae? In
-        quibusdam commodi temporibus.
-      </p>
+    </nav>
+
+
+    <section class="hero__main container">
+      <div class="hero__text">
+        <h1 class="title"> Necesitasa un Técnico
+          <br>
+          Somos expertos en Refrigeración
+        </h1>
+        <p class="hero__paragraph">Desde hace mas de 3 generaciones brindando Servicios de alta calidad al sector
+          familiar y empresarial.</p>
+        <a href="" class="cta"> Contactar</a>
+      </div>
+
+    </section>
+  </header>
+
+
+
+
+  <main class="main">
+
+    <section id="Servicio" class="different container">
+
+      <h2 class="title title--different">Servicios</h2>
+
+      <div class="different__items">
+
+        <article class="different__item">
+          <img src="./images/icon-snappy-process.svg" class="different__icon" alt="">
+          <h3 class="different__title">
+            Heladeras Familiares</h3>
+
+          <p class="different__paragraph"> Our application process can be completed in minutes, not hours. Don’t get
+            stuck filling in tedious forms.</p>
+
+        </article>
+
+        <article class="different__item">
+          <img src="./images/icon-affordable-prices.svg" class="different__icon" alt="">
+          <h3 class="different__title">
+            Aire Acondicionado</h3>
+          <p class="different__paragraph">
+            We don’t want you worrying about high monthly costs. Our prices may be low,
+            but we still offer the best coverage possible.</p>
+        </article>
+
+        <article class="different__item">
+          <img src="./images/icon-people-first.svg" class="different__icon" alt="">
+          <h3 class="different__title">Refrigeración Comercial</h3>
+          <p class="different__paragraph">
+
+            Our plans aren’t full of conditions and clauses to prevent payouts. We make
+            sure you’re covered when you need it.</p>
+        </article>
+      </div>
     </section>
 
-    <section class="texto">
-      <h2>Disfruta del elemento Parallax</h2>
+    <section class="find">
+      <div class="find__container container">
+        <h2 class="title title--find"> Find out more about how we work</h2>
+        <a href="#" class="cta cta--find"> How we work</a>
+      </div>
     </section>
-    <!--
-    <section class="center espacio">
-      <div id="Trabajos" class="galeria">
-        <h2>Galeria de Trabajos</h2>
-        <div class="linea"></div>
-        <div class="contenedor-imagenes">
-          <div class="imagen">
-            <img src="img/trabajos/estufa.jpg" alt="trabajos-galeria" />
-            <div class="overlay">
-              <h2>Estufas</h2>
-            </div>
-          </div>
-          <div class="imagen">
-            <img
-              src="img/trabajos/porton-basculante.jpg"
-              alt="trabajos-galeria"
-            />
-            <div class="overlay">
-              <h2>Portones basculantes</h2>
-            </div>
-          </div>
-          <div class="imagen">
-            <img src="img/trabajos/quemador.jpg" alt="trabajos-galeria" />
-            <div class="overlay">
-              <h2>Quemandores</h2>
-            </div>
-          </div>
-          <div class="imagen">
-            <img src="img/trabajos/reja.jpg" alt="trabajos-galeria" />
-            <div class="overlay">
-              <h2>Rejas</h2>
-            </div>
-          </div>
-          <div class="imagen">
-            <img src="img/trabajos/escalera.jpg" alt="trabajos-galeria" />
-            <div class="overlay">
-              <h2>Escaleras</h2>
-            </div>
-          </div>
-          <div class="imagen">
-            <img src="img/trabajos/candelabros.jpg" alt="trabajos-galeria" />
-            <div class="overlay">
-              <h2>Candelabros</h2>
-            </div>
-          </div>
-          <div class="imagen">
-            <img src="img/trabajos/mantenimiento.jpg" alt="trabajos-galeria" />
-            <div class="overlay">
-              <h2>Mantenimiento y Reparaciones</h2>
-            </div>
-          </div>
-          <div class="imagen">
-            <img src="img/trabajos/estructura.jpg" alt="trabajos-galeria" />
-            <div class="overlay">
-              <h2>Estructuras</h2>
-            </div>
-          </div>
-          <div class="imagen">
-            <img src="img/trabajos/artesania.jpg" alt="trabajos-galeria" />
-            <div class="overlay">
-              <h2>Artesanias</h2>
-            </div>
-          </div>
+  </main>
+
+  <footer id="Contact" class="footer">
+
+    <section class="footer__container container">
+      <div class="footer__brand">
+        <figure class="footer__figure">
+          <img src="./images/logo.svg" alt="" class="footer__img">
+
+        </figure>
+        <div class="footer__contact">
+          <a href="#" class="footer__media">
+            <img src="./images/icon-facebook.svg" alt="">
+          </a>
+
+
+          <a href="#" class="footer__media">
+            <img src="./images/icon-twitter.svg" alt="">
+          </a>
+
+
+          <a href="#" class="footer__media">
+            <img src="./images/icon-pinterest.svg" alt="">
+          </a>
+
+          <a href="#" class="footer__media">
+            <img src="./images/icon-instagram.svg" alt="">
+          </a>
+
+
         </div>
       </div>
-    </section>
-  -->
-    <section class="parallax-chico">
-      <h2>Menos altura</h2>
-    </section>
-    <section class="texto">
-      <h2>Disfruta del elemento Parallax</h2>
-    </section>
-    <section class="parallax-completo"></section>
-    <footer id="contacto">
-      <div class="container-body">
-        <div class="colum1">
-          <div class="ft-profile"></div>
-          <br />
-          <h2>Marcos Fraga</h2>
-          <hr />
-          <p>
-            Empresa Uruguaya de Equipos de Desinfección por Ozono. <br />Nos
-            dedicamos a la fabricacion de equipos de desinfección por ozono(O3).
-          </p>
-          <h2>¿Como trabajamos?</h2>
-          <hr />
-          <p>Nosotros trabajamos bajo pedido y con limite de stock.</p>
-        </div>
-        <div class="colum-b">
-          <br />
-          <h2 class="display-4">Contacto</h2>
-          <div class="block-abaut">
-            <div class="row-a">
-              <a href="#"
-                ><img
-                  src="data:image/svg+xml;base64,PHN2ZyBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAyNCAyNCIgaGVpZ2h0PSI1MTIiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjUxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+PGxpbmVhckdyYWRpZW50IGlkPSJTVkdJRF8xXyIgZ3JhZGllbnRUcmFuc2Zvcm09Im1hdHJpeCgwIC0xLjk4MiAtMS44NDQgMCAtMTMyLjUyMiAtNTEuMDc3KSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSItMzcuMTA2IiB4Mj0iLTI2LjU1NSIgeTE9Ii03Mi43MDUiIHkyPSItODQuMDQ3Ij48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNmZDUiLz48c3RvcCBvZmZzZXQ9Ii41IiBzdG9wLWNvbG9yPSIjZmY1NDNlIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjYzgzN2FiIi8+PC9saW5lYXJHcmFkaWVudD48cGF0aCBkPSJtMS41IDEuNjMzYy0xLjg4NiAxLjk1OS0xLjUgNC4wNC0xLjUgMTAuMzYyIDAgNS4yNS0uOTE2IDEwLjUxMyAzLjg3OCAxMS43NTIgMS40OTcuMzg1IDE0Ljc2MS4zODUgMTYuMjU2LS4wMDIgMS45OTYtLjUxNSAzLjYyLTIuMTM0IDMuODQyLTQuOTU3LjAzMS0uMzk0LjAzMS0xMy4xODUtLjAwMS0xMy41ODctLjIzNi0zLjAwNy0yLjA4Ny00Ljc0LTQuNTI2LTUuMDkxLS41NTktLjA4MS0uNjcxLS4xMDUtMy41MzktLjExLTEwLjE3My4wMDUtMTIuNDAzLS40NDgtMTQuNDEgMS42MzN6IiBmaWxsPSJ1cmwoI1NWR0lEXzFfKSIvPjxwYXRoIGQ9Im0xMS45OTggMy4xMzljLTMuNjMxIDAtNy4wNzktLjMyMy04LjM5NiAzLjA1Ny0uNTQ0IDEuMzk2LS40NjUgMy4yMDktLjQ2NSA1LjgwNSAwIDIuMjc4LS4wNzMgNC40MTkuNDY1IDUuODA0IDEuMzE0IDMuMzgyIDQuNzkgMy4wNTggOC4zOTQgMy4wNTggMy40NzcgMCA3LjA2Mi4zNjIgOC4zOTUtMy4wNTguNTQ1LTEuNDEuNDY1LTMuMTk2LjQ2NS01LjgwNCAwLTMuNDYyLjE5MS01LjY5Ny0xLjQ4OC03LjM3NS0xLjctMS43LTMuOTk5LTEuNDg3LTcuMzc0LTEuNDg3em0tLjc5NCAxLjU5N2M3LjU3NC0uMDEyIDguNTM4LS44NTQgOC4wMDYgMTAuODQzLS4xODkgNC4xMzctMy4zMzkgMy42ODMtNy4yMTEgMy42ODMtNy4wNiAwLTcuMjYzLS4yMDItNy4yNjMtNy4yNjUgMC03LjE0NS41Ni03LjI1NyA2LjQ2OC03LjI2M3ptNS41MjQgMS40NzFjLS41ODcgMC0xLjA2My40NzYtMS4wNjMgMS4wNjNzLjQ3NiAxLjA2MyAxLjA2MyAxLjA2MyAxLjA2My0uNDc2IDEuMDYzLTEuMDYzLS40NzYtMS4wNjMtMS4wNjMtMS4wNjN6bS00LjczIDEuMjQzYy0yLjUxMyAwLTQuNTUgMi4wMzgtNC41NSA0LjU1MXMyLjAzNyA0LjU1IDQuNTUgNC41NSA0LjU0OS0yLjAzNyA0LjU0OS00LjU1LTIuMDM2LTQuNTUxLTQuNTQ5LTQuNTUxem0wIDEuNTk3YzMuOTA1IDAgMy45MSA1LjkwOCAwIDUuOTA4LTMuOTA0IDAtMy45MS01LjkwOCAwLTUuOTA4eiIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg=="
-              /></a>
-            </div>
-            <div class="row-a">
-              <a href="#">
-                <img
-                  src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHBhdGggc3R5bGU9ImZpbGw6IzRDQUY1MDsiIGQ9Ik0yNTYuMDY0LDBoLTAuMTI4bDAsMEMxMTQuNzg0LDAsMCwxMTQuODE2LDAsMjU2YzAsNTYsMTguMDQ4LDEwNy45MDQsNDguNzM2LDE1MC4wNDhsLTMxLjkwNCw5NS4xMDQNCglsOTguNC0zMS40NTZDMTU1LjcxMiw0OTYuNTEyLDIwNCw1MTIsMjU2LjA2NCw1MTJDMzk3LjIxNiw1MTIsNTEyLDM5Ny4xNTIsNTEyLDI1NlMzOTcuMjE2LDAsMjU2LjA2NCwweiIvPg0KPHBhdGggc3R5bGU9ImZpbGw6I0ZBRkFGQTsiIGQ9Ik00MDUuMDI0LDM2MS41MDRjLTYuMTc2LDE3LjQ0LTMwLjY4OCwzMS45MDQtNTAuMjQsMzYuMTI4Yy0xMy4zNzYsMi44NDgtMzAuODQ4LDUuMTItODkuNjY0LTE5LjI2NA0KCUMxODkuODg4LDM0Ny4yLDE0MS40NCwyNzAuNzUyLDEzNy42NjQsMjY1Ljc5MmMtMy42MTYtNC45Ni0zMC40LTQwLjQ4LTMwLjQtNzcuMjE2czE4LjY1Ni01NC42MjQsMjYuMTc2LTYyLjMwNA0KCWM2LjE3Ni02LjMwNCwxNi4zODQtOS4xODQsMjYuMTc2LTkuMTg0YzMuMTY4LDAsNi4wMTYsMC4xNiw4LjU3NiwwLjI4OGM3LjUyLDAuMzIsMTEuMjk2LDAuNzY4LDE2LjI1NiwxMi42NA0KCWM2LjE3NiwxNC44OCwyMS4yMTYsNTEuNjE2LDIzLjAwOCw1NS4zOTJjMS44MjQsMy43NzYsMy42NDgsOC44OTYsMS4wODgsMTMuODU2Yy0yLjQsNS4xMi00LjUxMiw3LjM5Mi04LjI4OCwxMS43NDQNCgljLTMuNzc2LDQuMzUyLTcuMzYsNy42OC0xMS4xMzYsMTIuMzUyYy0zLjQ1Niw0LjA2NC03LjM2LDguNDE2LTMuMDA4LDE1LjkzNmM0LjM1Miw3LjM2LDE5LjM5MiwzMS45MDQsNDEuNTM2LDUxLjYxNg0KCWMyOC41NzYsMjUuNDQsNTEuNzQ0LDMzLjU2OCw2MC4wMzIsMzcuMDI0YzYuMTc2LDIuNTYsMTMuNTM2LDEuOTUyLDE4LjA0OC0yLjg0OGM1LjcyOC02LjE3NiwxMi44LTE2LjQxNiwyMC0yNi40OTYNCgljNS4xMi03LjIzMiwxMS41ODQtOC4xMjgsMTguMzY4LTUuNTY4YzYuOTEyLDIuNCw0My40ODgsMjAuNDgsNTEuMDA4LDI0LjIyNGM3LjUyLDMuNzc2LDEyLjQ4LDUuNTY4LDE0LjMwNCw4LjczNg0KCUM0MTEuMiwzMjkuMTUyLDQxMS4yLDM0NC4wMzIsNDA1LjAyNCwzNjEuNTA0eiIvPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo="
-              /></a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="Copyright">
-        <p>Marcos Fraga | Refrigeración</p>
-      </div>
-    </footer>
 
-    <!--BOOSTRAP JS-->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+      <div class="footer__navigation">
+
+        <nav class="footer__nav">
+          <a href="#" class="footer__link footer__link--first">Menu</a>
+          <a href="#Inicio" class="footer__link">Inicio</a>
+          <a href="#Servicio" class="footer__link">Servicios</a>
+          <a href="#" class="footer__link">View plans</a>
+          <a href="#" class="footer__link">Reviews</a>
+        </nav>
+        <!--
+        <nav class="footer__nav">
+          <a href="#" class="footer__link footer__link--first">Help me</a>
+          <a href="#" class="footer__link">FAQ</a>
+          <a href="#" class="footer__link">Terms of use</a>
+          <a href="#" class="footer__link">Privacy policy</a>
+          <a href="#" class="footer__link">Cookies</a>
+        </nav>
+
+        <nav class="footer__nav">
+          <a href="#" class="footer__link footer__link--first">Contact</a>
+          <a href="#" class="footer__link">Sales</a>
+          <a href="#" class="footer__link">Support</a>
+          <a href="#" class="footer__link">Live chat</a>
+          <a href="#" class="footer__link">Others</a>
+        </nav>
+
+        <nav class="footer__nav">
+          <a href="#" class="footer__link footer__link--first">Careers</a>
+          <a href="#" class="footer__link">Press</a>
+          <a href="#" class="footer__link">Licenses</a>
+          <a href="#" class="footer__link"></a>
+          <a href="#" class="footer__link"></a>
+        </nav>
+        -->
+
+      </div>
+    </section>
+
+  </footer>
+
+</body>
+<script src="js/menu.js"></script>
+
 </html>

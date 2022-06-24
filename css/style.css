@@ -1,0 +1,419 @@
+:root {
+    --Very-Dark-Violet: hsl(270, 9%, 17%);
+    --Dark-Grayis-Violet: hsl(273, 4%, 51%);
+    ---Very-Light-Gray: hsl(0, 0%, 98%);
+
+    --Dark-Violet: hsl(216, 85%, 34%);
+    --Grayish-Blue: hsl(216, 30%, 68%);
+
+    --font1: 'Karla', sans-serif;
+    --fint2: 'DM Serif Display', serif;
+
+    --padding-container: 80px 0;
+    scroll-behavior: smooth;
+
+--Blanco:#fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font1);
+}
+
+/*- Mobile: 375px */
+.hamburguer {
+    top: 30px;
+    right: 30px;
+    background: var(--Blanco);
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.menu-navegacion {
+    position: fixed;
+    top: 0;
+    width: 30vw;
+    height: 100%;
+    /* background-image: linear-gradient(to top, #fbc2eb 0%, #a6c0ee 100%); */
+    /* 02 */
+    background-image: linear-gradient(to top, #0D47A1 0%, #212121 100%);
+    /* 028 */
+    /*background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    right: 0;
+    transform: translateX(110%);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+}
+
+.spread {
+    transform: translateX(0);
+}
+
+.menu-navegacion a {
+    color: var(--Blanco);
+    text-decoration: none;
+}
+
+
+.hero {
+    background-color: var(--Dark-Violet);
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: var(--padding-container);
+    max-width: 1200px;
+    overflow: hidden;
+}
+
+.nav {
+    background-color: #fff;
+    --padding-container: 0;
+}
+
+.nav__container {
+    height: 70px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.nav__links {
+    display: none;
+}
+
+.nav__icon,
+.nav__img {
+    display: block;
+    width: 250px;
+}
+
+.hero__main {
+    width: 100%;
+    --padding-container: 0;
+
+}
+
+.hero__main::before {
+    content: "";
+    display: block;
+    height: 370px;
+    background-image: url('../instalador-refrigeracion.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero__text {
+    color: #fff;
+    width: 90%;
+    margin: 0 auto;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-family: var(--fint2);
+    letter-spacing: 3px;
+}
+
+.hero__paragraph {
+    line-height: 1.5;
+    margin-top: 1em;
+}
+
+.cta {
+    display: inline-block;
+    margin-top: 1.5em;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid;
+    padding: .8em 2em;
+    text-transform: uppercase;
+}
+
+.cta:hover {
+    display: inline-block;
+    margin-top: 1.5em;
+    color: black;
+    text-decoration: none;
+    border: 1px solid;
+    padding: .8em 2em;
+    text-transform: uppercase;
+}
+
+.different {
+    text-align: center;
+}
+
+.title--different {
+    position: relative;
+    padding-top: 10px;
+}
+
+.title--different::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    width: 30%;
+    height: 2px;
+    background-color: var(--Dark-Grayis-Violet);
+}
+
+.different__items {
+    margin-top: 3.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+}
+
+.different__icon {
+    display: block;
+    margin: 0% auto;
+    margin-bottom: 1.5em;
+}
+
+.different__title {
+    font-size: 1.5rem;
+    font-family: var(--fint2);
+    letter-spacing: 2px;
+
+}
+
+.different__paragraph {
+    color: var(--Dark-Grayis-Violet);
+    line-height: 1.5;
+    margin-top: 1em;
+}
+
+.find {
+    padding: 80px 0;
+    --padding-container: 50px 40px;
+}
+
+.find__container {
+    background-color: var(--Dark-Violet);
+    color: #fff;
+    text-align: center;
+}
+
+.footer {
+    background-color: var(---Very-Light-Gray);
+
+}
+
+.footer__brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    padding-bottom: 2.5em;
+    border-bottom: 1px solid var(--Dark-Grayis-Violet);
+    margin-bottom: 2.5em;
+}
+
+.footer__contact {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+
+}
+
+.footer__navigation {
+    display: flex;
+    gap: 3.5em;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__nav {
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: var(--Dark-Violet);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.footer__link--first {
+    color: var(--Dark-Grayis-Violet);
+    margin-bottom: 1em;
+}
+
+/* - End code Mobile: 375px */
+
+
+/* - Desktop: 1440px */
+
+@media (min-width: 768px) {
+
+    .nav__links {
+        display: block;
+    }
+
+    .nav__hamburguer {
+        display: none;
+    }
+
+    .nav__links {
+        display: flex;
+        align-items: center;
+        gap: 2em;
+    }
+
+    .nav__link {
+        text-decoration: none;
+        color: var(--Dark-Grayis-Violet);
+    }
+
+    .nav__link--cta {
+        border: 1px solid;
+        color: var(--Dark-Violet);
+        padding: .8em 2em;
+    }
+
+    .nav__link--cta:hover {
+        border: 1px solid;
+        color: #fff;
+        padding: .8em 2em;
+        background: #0B5345;
+    }
+
+    .hero {
+        background: linear-gradient(to bottom, var(--Dark-Violet) 80%, #fff 80%);
+
+    }
+
+    .hero__main {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        --padding-container: 100px 0;
+    }
+
+    .hero__main::before {
+        width: 48%;
+        height: 370px;
+        background-image: url('../instalador-refrigeracion.jpg');
+        order: 1;
+        height: 500px;
+
+    }
+
+    .hero__text {
+        position: relative;
+        color: #fff;
+        width: 50%;
+        margin: 0;
+        padding: 20px 0;
+        text-align: left;
+    }
+
+    .hero__text::before {
+        content: "";
+        position: absolute;
+        width: 30%;
+        height: 2px;
+        top: 0%;
+        left: 0%;
+        background-color: var(---Very-Light-Gray);
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+
+
+    .different {
+        text-align: left;
+    }
+
+    .title--different::before {
+        margin: 0;
+    }
+
+    .different__items {
+        flex-direction: row;
+        gap: 2em;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .different__item {
+        flex: 1;
+
+    }
+
+    .different__icon {
+        margin-left: 0%;
+
+    }
+
+
+
+    .find__container::before {
+        content: "";
+        position: absolute;
+        width: 40%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        background-image: url('../images/bg-pattern-how-we-work-desktop.svg');
+        background-size: cover;
+        background-position: left;
+    }
+
+    .find__container {
+        position: relative;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .title--find {
+        width: 60%;
+    }
+
+    .footer__brand {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer__navigation {
+        gap: 1.5em;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .footer__nav {
+        width: 24%;
+        align-items: flex-start;
+    }
+
+}
+
+/* - End code Desktop: 1440px */
