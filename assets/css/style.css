@@ -3,7 +3,7 @@
     --Dark-Grayis-Violet: hsl(273, 4%, 51%);
     ---Very-Light-Gray: hsl(0, 0%, 98%);
 
-    --Dark-Violet: hsl(199, 98%, 48%);
+    --Dark-Violet: #0277BD;
     --Grayish-Blue: hsl(216, 30%, 68%);
 
     --font1: 'Karla', sans-serif;
@@ -216,7 +216,7 @@ body {
 }
 
 .footer {
-    background-color: var(---Very-Light-Gray);
+    background-color: #212121;
 
 }
 
